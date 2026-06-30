@@ -22,13 +22,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SK — AI Enthusiast | DSA Learner | Ethical Hacker" },
+      { title: "Utkarsh — AI Enthusiast | DSA Learner | Ethical Hacker" },
       {
         name: "description",
         content:
-          "Portfolio of SK, a student exploring Artificial Intelligence, Data Structures & Algorithms, and Ethical Hacking.",
+          "Portfolio of Utkarsh, a student exploring Artificial Intelligence, Data Structures & Algorithms, and Ethical Hacking.",
       },
-      { property: "og:title", content: "SK — AI · DSA · Ethical Hacking" },
+      { property: "og:title", content: "Utkarsh — AI · DSA · Ethical Hacking" },
       {
         property: "og:description",
         content:
@@ -71,9 +71,9 @@ function Portfolio() {
         <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
           <a href="#home" className="flex items-center gap-2 font-display font-bold text-lg">
             <span className="w-8 h-8 rounded-lg gradient-bg grid place-items-center text-primary-foreground">
-              SK
+              Utkarsh
             </span>
-            <span className="gradient-text">sk.dev</span>
+            <span className="gradient-text">Utkarsh.dev</span>
           </a>
           <ul className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
             {NAV.map((n) => (
@@ -128,7 +128,7 @@ function Portfolio() {
             Available for collaboration & internships
           </div>
           <h1 className="mt-6 text-5xl sm:text-7xl md:text-8xl font-bold leading-[1.05]">
-            Hi, I'm <span className="gradient-text">SK</span>
+            Hi, I'm <span className="gradient-text">Utkarsh</span>
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-muted-foreground">
             AI Enthusiast <span className="text-brand-blue">·</span> DSA Learner{" "}
@@ -308,7 +308,7 @@ function Portfolio() {
       {/* FOOTER */}
       <footer className="border-t border-border/60 py-8 px-6 text-center text-sm text-muted-foreground">
         <p>
-          © {new Date().getFullYear()} <span className="gradient-text font-medium">SK</span>. Crafted with curiosity & caffeine.
+          © {new Date().getFullYear()} <span className="gradient-text font-medium">Utkarsh</span>. Crafted with curiosity & caffeine.
         </p>
       </footer>
     </div>
